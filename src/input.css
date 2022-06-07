@@ -1,0 +1,34 @@
+.input-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.input-wrapper input {
+  border-bottom: 1px solid #00626b;
+  width: calc(100% - 16px);
+  line-height: 28px;
+  background-color: transparent;
+  color: white;
+  margin-left: 16px;
+  font-size: 20px;
+}
+
+.input-wrapper input:focus {
+  outline-width: 0;
+}
+
+.input-wrapper label {
+  position: absolute;
+  top: 4px;
+  left: 24px;
+  opacity: .7;
+  transition: all .25s ease-in-out;
+  pointer-events: none;
+}
+
+.input-wrapper label.small {
+  position: absolute;
+  top: -24px;
+  left: 8px;
+  transform: scale(.7);
+}

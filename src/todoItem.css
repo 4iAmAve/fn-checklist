@@ -1,0 +1,84 @@
+.fn-tracking-todo-item-container .input-wrapper {
+  margin-top: 32px;
+  width: calc(100% - 24px);
+}
+
+.fn-tracking-todo-item-container .action-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fn-tracking-todo-item-container .action-wrapper button {
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  width: 92px;
+  height: 48px;
+  cursor: pointer;
+  position: relative;
+}
+
+.fn-tracking-todo-item-container .action-wrapper div {
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.fn-todo-item-container .input-wrapper {
+  margin-top: 32px;
+  width: calc(100% - 24px);
+}
+
+.fn-todo-item-container button {
+  background: transparent;
+  color: #00626b;
+  border-radius: 8px;
+  border: 1px solid #00626b;
+  width: 92px;
+  height: 48px;
+  cursor: pointer;
+  position: relative;
+  transition: all .3s ease-in-out;
+  font-weight: bold;
+}
+
+.fn-todo-item-container button.checked {
+  background: #00626b;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #00626b;
+  width: 92px;
+  height: 48px;
+  cursor: pointer;
+  position: relative;
+}
+
+.fn-tracking-todo-item-container .action-wrapper button div,
+.fn-todo-item-container button div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fn-tracking-todo-item-container .action-wrapper button div i,
+.fn-todo-item-container button div i {
+  max-width: 32px;
+  position: relative;
+  top: 0;
+}
+
+.fn-tracking-todo-item-container .action-wrapper button div,
+.fn-todo-item-container.checked {
+  opacity: .5;
+}
+
+.fn-todo-item-container--actions {
+  display: flex;
+  justify-content: center;
+}
+
+.fn-todo-item-container--actions button{
+  margin: 0 16px;
+}
